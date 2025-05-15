@@ -159,7 +159,12 @@ namespace ProjectMini
         {
             Console.Clear();
         }
-        static void BackToMenu();//פונקציה בסוף כל תוצאה כדי לחזור לתפריט הראשי
+        static void BackToMenu()//פונקציה בסוף כל תוצאה כדי לחזור לתפריט הראשי
+        {
+            Console.WriteLine("Press any key to return to the main menu.");
+            Console.ReadKey();
+            Menu();
+        }
         static void Exit();//יציאה 
     }
 }
