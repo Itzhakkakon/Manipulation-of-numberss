@@ -22,8 +22,18 @@ namespace ProjectMini
         static void PrintOList(List<int> mylist);//הדפסת ליסט
         static void MainOMenu();//הדפסת תפריט למשתמש
 
-        static int Maximom(List<int> mylist);//מציאת מקסימום
-
+        static int Maximom(List<int> mylist)//מציאת מקסימום
+        {
+            int max = 0;
+            foreach (int arg in mylist)
+            {
+                if (arg > max)
+                {
+                    max = arg;
+                }
+            }
+            return max;
+        }
         static int Minimom(List<int> mylist);//מציאת מינימום
         static int Sum(List<int> mylist);//סכימת האיברים בסדרה      
         static int AmountOfOrgans(List<int> mylist);//כמות איברים בסדרה
