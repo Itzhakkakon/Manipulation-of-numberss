@@ -64,7 +64,12 @@ namespace ProjectMini
             }
             return count;
         }
-        static int Average(int numerator, int denominator);//מציאת ממוצע הסדרה
+        static int Average(int numerator, int denominator)//מציאת ממוצע הסדרה
+        {
+            int average = 0;
+            average = numerator / denominator;
+            return average;
+        }
         static void PrintOreverseOList(List<int> mylist);//הדפסה ברוורס אפשרי לשים את זה בתוך הסוויטש
         static void SortOfromOlowOtoOhigh(List<int> mylist);//מיון מהנמוך לגבוה
 
