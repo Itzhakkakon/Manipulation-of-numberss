@@ -24,8 +24,8 @@ namespace ProjectMini
                 numstr = Console.ReadLine().Split(" ").ToList();
             }
             while (!Chahk(numstr));
-
-            static bool Chahk(List<string> numstr);//בדיקות השמה לליסט והמרה
+        }
+        static bool Chahk(List<string> numstr);//בדיקות השמה לליסט והמרה
 
         static void PrintOInt(int num)//הדפסת מספר 
         {
