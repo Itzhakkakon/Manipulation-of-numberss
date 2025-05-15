@@ -10,6 +10,7 @@ namespace ProjectMini
 {
     class Program
     {
+        static List<int> mylist = [];//הגדרת משתנה גלובלי מסוג ליסט של מספרים שלמים
         static void Main(string[] args)//פונקצית הפעלת מערכת
         {
             MangInput();
