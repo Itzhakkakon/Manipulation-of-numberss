@@ -14,9 +14,18 @@ namespace ProjectMini
         {
             MangInput();
         }
-        static void input();//אינפוט משתמש 
+        static void input()//ינפוט משתמש 
+        {
+            mylist.Clear();
+            List<string> numstr;
+            do
+            {
+                Console.WriteLine("Enter positive numbers! Note that there must be a space between each element and a minimum of 3 elements.");
+                numstr = Console.ReadLine().Split(" ").ToList();
+            }
+            while (!Chahk(numstr));
 
-        static bool Chahk(List<string> numstr);//בדיקות השמה לליסט והמרה
+            static bool Chahk(List<string> numstr);//בדיקות השמה לליסט והמרה
 
         static void PrintOInt(int num)//הדפסת מספר 
         {
