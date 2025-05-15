@@ -21,7 +21,13 @@ namespace ProjectMini
         {
             Console.WriteLine(num);
         }
-        static void PrintOList(List<int> mylist);//הדפסת ליסט
+        static void PrintOList(List<int> mylist)//הדפסת ליסט
+        {
+            foreach (int arg in mylist)
+            {
+                Console.WriteLine(arg);
+            }
+        }
         static void MainOMenu();//הדפסת תפריט למשתמש
 
         static int Maximom(List<int> mylist)//מציאת מקסימום
