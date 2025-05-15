@@ -17,8 +17,10 @@ namespace ProjectMini
 
         static bool Chahk(List<string> numstr);//בדיקות השמה לליסט והמרה
 
-        static void PrintOInt(int num);//הדפסת מספר 
-
+        static void PrintOInt(int num)//הדפסת מספר 
+        {
+            Console.WriteLine(num);
+        }
         static void PrintOList(List<int> mylist);//הדפסת ליסט
         static void MainOMenu();//הדפסת תפריט למשתמש
 
