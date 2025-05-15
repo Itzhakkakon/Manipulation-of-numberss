@@ -155,7 +155,10 @@ namespace ProjectMini
             }
             BackToMenu();
         }
-        static void ScreenCleaning();//פונקציה לניקוי מסך הטרמינל כך שיוצג התוצאה שנבחרה בצורה נקייה
+        static void ScreenCleaning()//פונקציה לניקוי מסך הטרמינל כך שיוצג התוצאה שנבחרה בצורה נקייה
+        {
+            Console.Clear();
+        }
         static void BackToMenu();//פונקציה בסוף כל תוצאה כדי לחזור לתפריט הראשי
         static void Exit();//יציאה 
     }
