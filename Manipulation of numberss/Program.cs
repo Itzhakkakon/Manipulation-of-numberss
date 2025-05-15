@@ -28,8 +28,21 @@ namespace ProjectMini
                 Console.WriteLine(arg);
             }
         }
-        static void MainOMenu();//הדפסת תפריט למשתמש
+        static void MainOMenu()//הדפסת תפריט למשתמש
+        {
+            Console.WriteLine("Enter your choice: ");
+            Console.WriteLine("1. Replace the number series");
+            Console.WriteLine("2. Print in order");
+            Console.WriteLine("3. Reverse printing");
+            Console.WriteLine("4. Sort from low to high");
+            Console.WriteLine("5. Find maximum");
+            Console.WriteLine("6. Find minimum");
+            Console.WriteLine("7. Average of the numbers");
+            Console.WriteLine("8. Sum of elements");
+            Console.WriteLine("9. Value of all elements");
+            Console.WriteLine("10. Exit");
 
+        }
         static int Maximom(List<int> mylist)//מציאת מקסימום
         {
             int max = 0;
