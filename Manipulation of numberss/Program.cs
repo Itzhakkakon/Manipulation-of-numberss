@@ -165,6 +165,10 @@ namespace ProjectMini
             Console.ReadKey();
             Menu();
         }
-        static void Exit();//יציאה 
+        static void Exit()//יציאה 
+        {
+            Console.WriteLine("Exiting...");
+            Environment.Exit(0);
+        }
     }
 }
