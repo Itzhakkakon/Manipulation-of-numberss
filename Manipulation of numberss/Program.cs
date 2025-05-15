@@ -107,7 +107,13 @@ namespace ProjectMini
         }
         static void MangInput();
 
-        static void Menu();//מדפיס למסך את התפריט כל פעם ועובר למנהל הסוויטשים
+        static void Menu()//מדפיס למסך את התפריט כל פעם ועובר למנהל הסוויטשים
+        {
+
+            MainOMenu();
+            Menger();
+
+        }
         static void Menger()//מנהל הסוויטשים
         {
             string choice = Console.ReadLine();
