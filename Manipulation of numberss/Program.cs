@@ -34,7 +34,7 @@ namespace ProjectMini
             }
             return max;
         }
-        static int Minimom(List<int> mylist)//מציאת מינימוםם
+        static int Minimom(List<int> mylist)//מציאת מינימום
         {
             int min = mylist[0];
             foreach (int arg in mylist)
@@ -46,7 +46,15 @@ namespace ProjectMini
             }
             return min;
         }
-        static int Sum(List<int> mylist);//סכימת האיברים בסדרה      
+        static int Sum(List<int> mylist)//סכימת האיברים בסדרה
+        {
+            int sum = 0;
+            foreach (int arg in mylist)
+            {
+                sum += arg;
+            }
+            return sum;
+        }
         static int AmountOfOrgans(List<int> mylist);//כמות איברים בסדרה
         static int Average(int numerator, int denominator);//מציאת ממוצע הסדרה
         static void PrintOreverseOList(List<int> mylist);//הדפסה ברוורס אפשרי לשים את זה בתוך הסוויטש
