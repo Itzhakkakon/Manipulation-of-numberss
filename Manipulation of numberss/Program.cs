@@ -1,4 +1,4 @@
-using System;
+ο»Ώusing System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,20 +9,20 @@ namespace ProjectMini
 {
     class Program
     {
-        static void Main(string[] args)//τεπχφιϊ δτςμϊ ξςψλϊ
+        static void Main(string[] args)//Χ¤Χ•Χ Χ§Χ¦Χ™Χª Χ”Χ¤ΧΆΧΧª ΧΧΆΧ¨Χ›Χª
         {
 
         }
-        static void input();//ΰιπτεθ ξωϊξω 
+        static void input();//ΧΧ™Χ Χ¤Χ•Χ ΧΧ©ΧªΧΧ© 
 
-        static bool Chahk(List<string> numstr);//αγιχεϊ δωξδ μμιρθ εδξψδ
+        static bool Chahk(List<string> numstr);//Χ‘Χ“Χ™Χ§Χ•Χª Χ”Χ©ΧΧ” ΧΧΧ™Χ΅Χ Χ•Χ”ΧΧ¨Χ”
 
-        static void PrintOInt(int num);//δγτρϊ ξρτψ 
+        static void PrintOInt(int num);//Χ”Χ“Χ¤Χ΅Χª ΧΧ΅Χ¤Χ¨ 
 
-        static void PrintOList(List<int> mylist);//δγτρϊ μιρθ
-        static void MainOMenu();//δγτρϊ ϊτψιθ μξωϊξω
+        static void PrintOList(List<int> mylist);//Χ”Χ“Χ¤Χ΅Χª ΧΧ™Χ΅Χ
+        static void MainOMenu();//Χ”Χ“Χ¤Χ΅Χª ΧªΧ¤Χ¨Χ™Χ ΧΧΧ©ΧªΧΧ©
 
-        static int Maximom(List<int> mylist)//ξφιΰϊ ξχριξεν
+        static int Maximom(List<int> mylist)//ΧΧ¦Χ™ΧΧª ΧΧ§Χ΅Χ™ΧΧ•Χ
         {
             int max = 0;
             foreach (int arg in mylist)
@@ -34,7 +34,7 @@ namespace ProjectMini
             }
             return max;
         }
-        static int Minimom(List<int> mylist)//ξφιΰϊ ξιπιξεν
+        static int Minimom(List<int> mylist)//ΧΧ¦Χ™ΧΧª ΧΧ™Χ Χ™ΧΧ•ΧΧ
         {
             int min = mylist[0];
             foreach (int arg in mylist)
@@ -46,19 +46,19 @@ namespace ProjectMini
             }
             return min;
         }
-        static int Sum(List<int> mylist);//ρλιξϊ δΰιαψιν αργψδ      
-        static int AmountOfOrgans(List<int> mylist);//λξεϊ ΰιαψιν αργψδ
-        static int Average(int numerator, int denominator);//ξφιΰϊ ξξεφς δργψδ
-        static void PrintOreverseOList(List<int> mylist);//δγτρδ αψεεψρ ΰτωψι μωιν ΰϊ ζδ αϊεκ δρεειθω
-        static void SortOfromOlowOtoOhigh(List<int> mylist);//ξιεο ξδπξεκ μβαεδ
+        static int Sum(List<int> mylist);//Χ΅Χ›Χ™ΧΧª Χ”ΧΧ™Χ‘Χ¨Χ™Χ Χ‘Χ΅Χ“Χ¨Χ”      
+        static int AmountOfOrgans(List<int> mylist);//Χ›ΧΧ•Χª ΧΧ™Χ‘Χ¨Χ™Χ Χ‘Χ΅Χ“Χ¨Χ”
+        static int Average(int numerator, int denominator);//ΧΧ¦Χ™ΧΧª ΧΧΧ•Χ¦ΧΆ Χ”Χ΅Χ“Χ¨Χ”
+        static void PrintOreverseOList(List<int> mylist);//Χ”Χ“Χ¤Χ΅Χ” Χ‘Χ¨Χ•Χ•Χ¨Χ΅ ΧΧ¤Χ©Χ¨Χ™ ΧΧ©Χ™Χ ΧΧª Χ–Χ” Χ‘ΧªΧ•Χ Χ”Χ΅Χ•Χ•Χ™ΧΧ©
+        static void SortOfromOlowOtoOhigh(List<int> mylist);//ΧΧ™Χ•Χ ΧΧ”Χ ΧΧ•Χ ΧΧ’Χ‘Χ•Χ”
 
         static void MangInput();
 
-        static void Menu();//ξγτιρ μξρκ ΰϊ δϊτψιθ λμ τςν εςεαψ μξπδμ δρεειθωιν
-        static void Menger();//ξπδμ δρεειθωιν
+        static void Menu();//ΧΧ“Χ¤Χ™Χ΅ ΧΧΧ΅Χ ΧΧª Χ”ΧªΧ¤Χ¨Χ™Χ Χ›Χ Χ¤ΧΆΧ Χ•ΧΆΧ•Χ‘Χ¨ ΧΧΧ Χ”Χ Χ”Χ΅Χ•Χ•Χ™ΧΧ©Χ™Χ
+        static void Menger();//ΧΧ Χ”Χ Χ”Χ΅Χ•Χ•Χ™ΧΧ©Χ™Χ
 
-        static void ScreenCleaning();//τεπχφιδ μπιχει ξρκ δθψξιπμ λκ ωιεφβ δϊεφΰδ ωπαηψδ αφεψδ πχιιδ
-        static void BackToMenu();//τεπχφιδ αρεσ λμ ϊεφΰδ λγι μηζεψ μϊτψιθ δψΰωι
-        static void Exit();//ιφιΰδ 
+        static void ScreenCleaning();//Χ¤Χ•Χ Χ§Χ¦Χ™Χ” ΧΧ Χ™Χ§Χ•Χ™ ΧΧ΅Χ Χ”ΧΧ¨ΧΧ™Χ Χ Χ›Χ Χ©Χ™Χ•Χ¦Χ’ Χ”ΧªΧ•Χ¦ΧΧ” Χ©Χ Χ‘Χ—Χ¨Χ” Χ‘Χ¦Χ•Χ¨Χ” Χ Χ§Χ™Χ™Χ”
+        static void BackToMenu();//Χ¤Χ•Χ Χ§Χ¦Χ™Χ” Χ‘Χ΅Χ•Χ£ Χ›Χ ΧªΧ•Χ¦ΧΧ” Χ›Χ“Χ™ ΧΧ—Χ–Χ•Χ¨ ΧΧªΧ¤Χ¨Χ™Χ Χ”Χ¨ΧΧ©Χ™
+        static void Exit();//Χ™Χ¦Χ™ΧΧ” 
     }
 }
