@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -107,8 +108,53 @@ namespace ProjectMini
         static void MangInput();
 
         static void Menu();//מדפיס למסך את התפריט כל פעם ועובר למנהל הסוויטשים
-        static void Menger();//מנהל הסוויטשים
-
+        static void Menger()//מנהל הסוויטשים
+        {
+            string choice = Console.ReadLine();
+            ScreenCleaning();
+            switch (choice)
+            {
+                case "1":
+                    MangInput();
+                    break;
+                case "2":
+                    PrintOList(mylist);
+                    break;
+                case "3":
+                    PrintOreverseOList(mylist);
+                    break;
+                case "4":
+                    SortOfromOlowOtoOhigh(mylist);
+                    break;
+                case "5":
+                    int max = Maximom(mylist);
+                    PrintOInt(max);
+                    break;
+                case "6":
+                    int min = Minimom(mylist);
+                    PrintOInt(min);
+                    break;
+                case "7":
+                    int average = Average(Sum(mylist), AmountOfOrgans(mylist));
+                    PrintOInt(average);
+                    break;
+                case "8":
+                    int Organs = AmountOfOrgans(mylist);
+                    PrintOInt(Organs);
+                    break;
+                case "9":
+                    int sum = Sum(mylist);
+                    PrintOInt(sum);
+                    break;
+                case "10":
+                    Exit();
+                    break;
+                default:
+                    Console.WriteLine("Invalid choice. Please try again.");
+                    break;
+            }
+            BackToMenu();
+        }
         static void ScreenCleaning();//פונקציה לניקוי מסך הטרמינל כך שיוצג התוצאה שנבחרה בצורה נקייה
         static void BackToMenu();//פונקציה בסוף כל תוצאה כדי לחזור לתפריט הראשי
         static void Exit();//יציאה 
