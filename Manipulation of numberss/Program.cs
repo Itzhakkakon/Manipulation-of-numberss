@@ -105,8 +105,13 @@ namespace ProjectMini
             sortedList.Sort();
             PrintOList(sortedList);
         }
-        static void MangInput();
-
+        static void MangInput()//ה-main קורא לפונקציה הזאת בכל הפעלה של המערכת
+        {
+            ScreenCleaning();
+            Console.WriteLine("Welcome to the program!");
+            input();
+            Menu();
+        }
         static void Menu()//מדפיס למסך את התפריט כל פעם ועובר למנהל הסוויטשים
         {
 
