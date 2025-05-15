@@ -12,7 +12,7 @@ namespace ProjectMini
     {
         static void Main(string[] args)//פונקצית הפעלת מערכת
         {
-
+            MangInput();
         }
         static void input();//אינפוט משתמש 
 
