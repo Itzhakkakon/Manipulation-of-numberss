@@ -91,7 +91,13 @@ namespace ProjectMini
             average = numerator / denominator;
             return average;
         }
-        static void PrintOreverseOList(List<int> mylist);//הדפסה ברוורס אפשרי לשים את זה בתוך הסוויטש
+        static void PrintOreverseOList(List<int> mylist)//הדפסה ברוורס אפשרי לשים את זה בתוך הסוויטש
+        {
+            for (int i = AmountOfOrgans(mylist) - 1; i >= 0; i--)
+            {
+                PrintOInt(mylist[i]);
+            }
+        }
         static void SortOfromOlowOtoOhigh(List<int> mylist)//מיון מהנמוך לגבוה
         {
             List<int> sortedList = new List<int>(mylist);
