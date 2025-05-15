@@ -25,8 +25,23 @@ namespace ProjectMini
             }
             while (!Chahk(numstr));
         }
-        static bool Chahk(List<string> numstr);//בדיקות השמה לליסט והמרה
-
+        static bool Chahk(List<string> numstr)//בדיקות השמה לליסט והמרה
+        {
+            if (numstr.Count < 3)
+            {
+                return false;
+            }
+            int x;
+            foreach (string stree in numstr)
+            {
+                if (!int.TryParse(stree, out x) || x < 0)
+                {
+                    return false;
+                }
+                mylist.Add(x);
+            }
+            return true;
+        }
         static void PrintOInt(int num)//הדפסת מספר 
         {
             Console.WriteLine(num);
