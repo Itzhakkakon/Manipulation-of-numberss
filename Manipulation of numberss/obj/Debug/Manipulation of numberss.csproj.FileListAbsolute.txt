@@ -1,0 +1,7 @@
+C:\Users\Itzhak\source\repos\Manipulation of numberss\Manipulation of numberss\obj\Debug\Manipulation of numberss.csproj.AssemblyReference.cache
+C:\Users\Itzhak\source\repos\Manipulation of numberss\Manipulation of numberss\obj\Debug\Manipulation of numberss.csproj.CoreCompileInputs.cache
+C:\Users\Itzhak\source\repos\Manipulation of numberss\Manipulation of numberss\bin\Debug\Manipulation of numberss.exe.config
+C:\Users\Itzhak\source\repos\Manipulation of numberss\Manipulation of numberss\bin\Debug\Manipulation of numberss.exe
+C:\Users\Itzhak\source\repos\Manipulation of numberss\Manipulation of numberss\bin\Debug\Manipulation of numberss.pdb
+C:\Users\Itzhak\source\repos\Manipulation of numberss\Manipulation of numberss\obj\Debug\Manipulation of numberss.exe
+C:\Users\Itzhak\source\repos\Manipulation of numberss\Manipulation of numberss\obj\Debug\Manipulation of numberss.pdb

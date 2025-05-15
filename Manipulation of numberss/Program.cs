@@ -10,7 +10,7 @@ namespace ProjectMini
 {
     class Program
     {
-        static List<int> mylist = [];//הגדרת משתנה גלובלי מסוג ליסט של מספרים שלמים
+        static List<int> mylist =new List<int>();//הגדרת משתנה גלובלי מסוג ליסט של מספרים שלמים
         static void Main(string[] args)//פונקצית הפעלת מערכת
         {
             MangInput();
@@ -22,7 +22,7 @@ namespace ProjectMini
             do
             {
                 Console.WriteLine("Enter positive numbers! Note that there must be a space between each element and a minimum of 3 elements.");
-                numstr = Console.ReadLine().Split(" ").ToList();
+                numstr = Console.ReadLine().Split(' ').ToList();
             }
             while (!Chahk(numstr));
         }
