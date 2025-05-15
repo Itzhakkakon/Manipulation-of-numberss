@@ -55,7 +55,15 @@ namespace ProjectMini
             }
             return sum;
         }
-        static int AmountOfOrgans(List<int> mylist);//כמות איברים בסדרה
+        static int AmountOfOrgans(List<int> mylist)//כמות איברים בסדרה
+        {
+            int count = 0;
+            foreach (int arg in mylist)
+            {
+                count++;
+            }
+            return count;
+        }
         static int Average(int numerator, int denominator);//מציאת ממוצע הסדרה
         static void PrintOreverseOList(List<int> mylist);//הדפסה ברוורס אפשרי לשים את זה בתוך הסוויטש
         static void SortOfromOlowOtoOhigh(List<int> mylist);//מיון מהנמוך לגבוה
