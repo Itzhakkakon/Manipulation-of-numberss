@@ -71,8 +71,12 @@ namespace ProjectMini
             return average;
         }
         static void PrintOreverseOList(List<int> mylist);//הדפסה ברוורס אפשרי לשים את זה בתוך הסוויטש
-        static void SortOfromOlowOtoOhigh(List<int> mylist);//מיון מהנמוך לגבוה
-
+        static void SortOfromOlowOtoOhigh(List<int> mylist)//מיון מהנמוך לגבוה
+        {
+            List<int> sortedList = new List<int>(mylist);
+            sortedList.Sort();
+            PrintOList(sortedList);
+        }
         static void MangInput();
 
         static void Menu();//מדפיס למסך את התפריט כל פעם ועובר למנהל הסוויטשים
