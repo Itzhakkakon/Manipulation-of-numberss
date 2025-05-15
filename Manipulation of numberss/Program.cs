@@ -4,12 +4,40 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Manipulation_of_numberss
+
+namespace ProjectMini
 {
-    internal class Program
+    class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)//פונקצית הפעלת מערכת
         {
+
         }
+        static void input();//אינפוט משתמש 
+
+        static bool Chahk(List<string> numstr);//בדיקות השמה לליסט והמרה
+
+        static void PrintOInt(int num);//הדפסת מספר 
+
+        static void PrintOList(List<int> mylist);//הדפסת ליסט
+        static void MainOMenu();//הדפסת תפריט למשתמש
+
+        static int Maximom(List<int> mylist);//מציאת מקסימום
+
+        static int Minimom(List<int> mylist);//מציאת מינימום
+        static int Sum(List<int> mylist);//סכימת האיברים בסדרה      
+        static int AmountOfOrgans(List<int> mylist);//כמות איברים בסדרה
+        static int Average(int numerator, int denominator);//מציאת ממוצע הסדרה
+        static void PrintOreverseOList(List<int> mylist);//הדפסה ברוורס אפשרי לשים את זה בתוך הסוויטש
+        static void SortOfromOlowOtoOhigh(List<int> mylist);//מיון מהנמוך לגבוה
+
+        static void MangInput();
+
+        static void Menu();//מדפיס למסך את התפריט כל פעם ועובר למנהל הסוויטשים
+        static void Menger();//מנהל הסוויטשים
+
+        static void ScreenCleaning();//פונקציה לניקוי מסך הטרמינל כך שיוצג התוצאה שנבחרה בצורה נקייה
+        static void BackToMenu();//פונקציה בסוף כל תוצאה כדי לחזור לתפריט הראשי
+        static void Exit();//יציאה 
     }
 }
